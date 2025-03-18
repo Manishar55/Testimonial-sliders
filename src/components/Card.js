@@ -6,9 +6,9 @@ function Card({reviews}) {
   // let review = props.review;
   return (
     <div>
-      <div>
+      {/* <div>
         <img alt='imgg' src={reviews.image}/>
-      </div>
+      </div> */}
 
       <div>
         <p>{reviews.name}</p>
