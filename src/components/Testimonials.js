@@ -29,7 +29,7 @@ function Testimonials(props) {
     setIndex(randomIndex);
   }
   return (
-    <div className='w-[85vw] md:w-[700px] bg-white flex-col justify-center items-center mt-10 p-10 transition-all duration-700 place-items-center hover:shadow-xl'>
+    <div className='w-[85vw] md:w-[700px] bg-white flex-col justify-center items-center mt-10 p-10 transition-all duration-700 place-items-center shadow-xl rounded-md'>
         <Card reviews={reviews[index]}/>
 
         <div className=' flex text-3xl gap-3 mt-5 text-violet-400 font-bold mb-5'>
